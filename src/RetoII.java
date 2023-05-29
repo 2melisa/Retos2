@@ -27,6 +27,7 @@ public class RetoII {
         String nombreC[] = new String[cantComp];
         float tiempoC[] = new float[cantComp];
 
+        //for para solicitar y almacenar nombres y tiempos
         for (int comp = 0; comp < competidores.length; comp ++){
             //solicitar nombres de los competidores
             System.out.println("Ingrese el nombre del competidor " + (comp + 1) + ": ");

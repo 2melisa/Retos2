@@ -2,16 +2,15 @@
 import java.util.Scanner;
 public class RetoIII {
     public static void main(String[] args) {
-        /*Programa que le solicita al usuario una palabra letra por letra y el numero de intentos. 
+        /*Programa que le solicita al usuario una palabra letra por letra. 
         esta palabra se almacena en un array y con ella se hace el juego de ahorcado */
 
-        //Declaramos las variables y si es necesario les asignamos un valor
-        String pal, letra, letras[]  = null, palabraGuion[] = null, compr[], palab = null;
+        //Declaramos las variables y arrays
+        String pal, letra, palab = null;
         int inte = 0, num = 0, num1 = 0, limp1 , limp, cont1;
 
         //Creamos la clase scanner para poder capturar datos
         Scanner sc = new Scanner(System.in);
-
 
         //biuenvenida al que ingresa la palabra y los intentos
         System.out.println("Bienvenido al juego de ahorcados, a continuación podrás ingresar la palabra clave.");
@@ -19,11 +18,11 @@ public class RetoIII {
                 System.out.println("¿Cuantas letras tiene tu palabra?");
                 //Capturamos cual es la cantidad de espacios en el array
                 //Array para guardar la palabra que asigna el usuario
-                letras = new String[num = sc.nextInt()];
+                String letras[] = new String[num = sc.nextInt()];
                 //Array con guiones que se le muestra al jugador
-                palabraGuion = new String[num];
+                String palabraGuion[] = new String[num];
                 //Array para realizar a comparacion de las elecciones del usuario
-                compr = new String[num];
+                String compr[] = new String[num];
 
                 //Ciclo for para pedir y capturar las letras de la palabra
                 //Usamos length para contar el numero de espacios para el array

@@ -15,7 +15,7 @@ public class RetoIV {
         
         //declarar variables
         int fil, col;
-        //declarar e inicializar array
+        //declarar e inicializarmatriz
         String productos[][]  = new String[4][4];
 
         //llenar matriz

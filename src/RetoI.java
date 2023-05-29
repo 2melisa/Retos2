@@ -26,7 +26,6 @@ public class RetoI {
         cant = sc.nextInt();
 
         //declaramos array y definimos su tamaño
-
         float notas[] = new float[cant]; 
 
         //for para solicitar las notas
